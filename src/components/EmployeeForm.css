@@ -1,0 +1,48 @@
+/* src/components/EmployeeForm.css */
+.employee-form {
+    max-width: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .employee-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .employee-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Make the button full-width */
+  }
+  
+  .employee-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .employee-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  /* src/components/EmployeeForm.css */
+.employee-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  

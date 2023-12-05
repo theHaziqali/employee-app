@@ -1,0 +1,18 @@
+/* src/components/Employee.css */
+.employee-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
