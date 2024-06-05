@@ -47,7 +47,7 @@ const EmployeeForm = ({ onSave, onCancel, employeeData }) => {
       <label>Email:</label>
       <input type="text" name="email" value={formData.email} onChange={handleChange} />
 
-      <label>CNIC:</label>
+      <label>Employee ID:</label>
       <input type="text" name="cnic" value={formData.cnic} onChange={handleChange} />
 
       <label>Address:</label>

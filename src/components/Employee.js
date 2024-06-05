@@ -13,7 +13,7 @@ const Employee = ({ employee, onEdit, onDelete }) => {
       <h3>ID: {employee.id}</h3>
       <p>Name: {employee.name}</p>
       <p>Email: {employee.email}</p>
-      <p>CNIC: {employee.cnic}</p>
+      <p>Employee ID: {employee.cnic}</p>
       <p>Address: {employee.address}</p>
       <button className="edit-button" onClick={handleEdit}>Edit</button>
       <button className="delete-button" onClick={() => onDelete(employee.id)}>Delete</button>
